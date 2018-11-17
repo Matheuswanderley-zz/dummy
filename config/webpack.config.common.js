@@ -29,7 +29,7 @@ module.exports = {
                     { loader: 'css-loader', options: { sourceMap: true } },
                 ],
                 include: helpers.root('src', 'app')
-            }
+            },
         ]
     },
 

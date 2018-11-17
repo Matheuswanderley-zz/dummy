@@ -11,5 +11,11 @@
     "lib": ["es6", "dom"],
     "typeRoots": ["node_modules/@types"]
   },
-  "exclude": ["node_modules"]
+  "types": [
+    "node",
+  ],
+  "exclude": ["node_modules"],
+"awesomeTypeScriptLoaderOptions": {
+    "useWebpackText": true
+}
 }

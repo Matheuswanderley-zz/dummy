@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { MenuRoutingModule } from './menu-routing.module';
-import { MenuComponent } from './components/menu/menu.component';
+import { MenuRoutingModule } from './home-routing.module';
+import { HomeComponent } from './home.component';
 
 @NgModule({
     declarations: [
-        MenuComponent
+        HomeComponent
     ],
     imports: [
         CommonModule,

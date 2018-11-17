@@ -1,0 +1,29 @@
+.button-degrade {
+  width: 132px;
+  height: 30px;
+  background: linear-gradient(to right, #AC2228, #E1261C, #E1261C, #1F3D7B, #1F3D7B);;
+  border-radius: 20px;
+  color: #303030;
+  display: inline-block;
+  font-size: 20px;
+  padding: 1px;
+  text-decoration: none;
+}
+.button-degrade span {
+  background: #fff;
+  display: block;
+  border-radius: 20px;
+  font-family: DIN;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.80;
+  letter-spacing: normal;
+  text-align: center;
+  color: #303030;
+}
+.button-degrade span:hover {
+  color: #FFFFFF !important;
+  background: linear-gradient(to right, #AC2228, #E1261C, #E1261C, #1F3D7B, #1F3D7B);
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ButtonDegradeComponent } from './shared//button-degrade/buttonDegrade.component'
 
 @Component({
     selector: 'app-root',
