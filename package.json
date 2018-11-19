@@ -4,27 +4,32 @@
   "scripts": {
     "webpack-dev": "cross-env NODE_ENV=development webpack --mode development",
     "build:dev": "webpack-dev-server --inline --hot --progress --port 8080",
-    "test": "webpack-dev-server --config config/webpack.test.browser.js --inline --progress --hot --port 8888"
-    
+    "test": "webpack-dev-server --config config/webpack.test.browser.js --inline --progress --hot --port 8888",
+    "lint": "./node_modules/.bin/tslint -c tslint.json"
   },
   "author": "Matheus de Paula Wanderley",
   "license": "MIT",
   "dependencies": {
     "@angular/animations": "^7.0.4",
+    "@angular/cdk": "^7.0.4",
     "@angular/common": "^7.0.4",
     "@angular/compiler": "^7.0.4",
     "@angular/compiler-cli": "^7.0.4",
     "@angular/core": "^7.0.4",
     "@angular/forms": "^7.0.4",
     "@angular/http": "^7.0.4",
+    "@angular/material": "^7.0.4",
     "@angular/platform-browser": "^7.0.4",
     "@angular/platform-browser-dynamic": "^7.0.4",
     "@angular/platform-server": "^7.0.4",
     "@angular/router": "^7.0.4",
     "@angular/upgrade": "^7.0.4",
     "@babel/polyfill": "^7.0.0",
+    "codelyzer": "^4.5.0",
     "core-js": "~2.5",
     "rxjs": "~6.3",
+    "tslint": "^5.11.0",
+    "tslint-angular": "^1.1.2",
     "zone.js": "~0.8"
   },
   "devDependencies": {
